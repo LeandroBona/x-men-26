@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>INSTITUTO XAVIER PARA SUPERDOTADOS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -17,8 +18,8 @@
         <section class="personagens">
             <h1 class="titulo">Selecione um personagem</h1>
             <ul class="lista-de-personagens">
-                <li class="personagem" id="ciclope" data-name="Ciclope" 
-                data-description="Ele tem o poder de diparar rajadas ópticas por uma acidente com ele
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" 
+                data-description="Ele tem o poder de disparar rajadas ópticas por um acidente com ele
                 quando criança, mas não consegue controlá-los">
                     <img src="img/card-ciclope.jpg" alt="Personagem Ciclope">
                 </li>
@@ -38,27 +39,34 @@
                     <img src="img/card-tempestade.jpg" alt="Personagem tempestade">
                 </li>
                 <li class="personagem" id="vampira" data-name="vampira" 
-                data-description="Ele tem o poder de diparar rajadas ópticas por uma acidente com ele
-                quando criança, mas não consegue controlá-los">
+                data-description="Ela tem o poder de absorver a vitalidade e memoria das pessoas que toca
+                ou caso dos mutantes os oderes e a memoria so que temporariamente">
                     <img src="img/card-vampira.jpg" alt="Personagem vampira">
                 </li>
                 <li class="personagem" id="wolverine" data-name="wolverine" 
-                data-description="Ele tem o poder de diparar rajadas ópticas por uma acidente com ele
-                quando criança, mas não consegue controlá-los">
+                data-description="poderes:garras de adamentium fator de cura regenerativo super agilidade">
                     <img src="img/card-wolverine.jpg" alt="Personagem wolverine">
                 </li>
                 <li class="personagem" id="noturno" data-name="noturno" 
-                data-description="Ele tem o poder de diparar rajadas ópticas por uma acidente com ele
-                quando criança, mas não consegue controlá-los">
+                data-description="ele é um mutante que nasceu com cauda, orelhas pontudas e com poder de telesetransportar">
                     <img src="img/card-noturno.jpg" alt="Personagem noturno">
                 </li>
                 <li class="personagem" id="magneto" data-name="magneto" 
-                data-description="Ele tem o poder de diparar rajadas ópticas por uma acidente com ele
-                quando criança, mas não consegue controlá-los">
+                data-description="ele tem o poder de magnetocinese ou seja controlar objetos metalicos e criar campos magneticos">
                     <img src="img/card-magneto.jpg" alt="Personagem magneto">
                 </li>
             </ul>
         </section>
+        <section class="personagem selecionado" >
+            <img  class="personagem-grande"src="img/card-ciclope.png" alt="personagem selecionado">
+        </section>
+<div class="informacoes-personagem">
+<h1 class="nome-personagem" id="nome-personagem"ciclope</h1>
+<p class="descricao-personagem" id="descricao"</p>
+  Ele tem o poder de disparar rajadas ópticas por um acidente com ele
+                quando criança, mas não consegue controlá-los" 
+</div>
+        
     </main>
 </body>
 </html>
